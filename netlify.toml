@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav { @apply px-3 py-2 rounded-xl font-bold flex gap-1 items-center hover:bg-[#33B8C9]/15; }
+  .card { @apply p-5 rounded-3xl bg-white dark:bg-[#0b1b2e] shadow-lg border border-[#B20F57]/10; }
+  .primary { @apply px-5 py-3 rounded-xl bg-[#B20F57] text-white font-black hover:opacity-90; }
+  .secondary { @apply px-5 py-3 rounded-xl bg-[#33B8C9] text-[#112A46] font-black hover:opacity-90; }
+}
